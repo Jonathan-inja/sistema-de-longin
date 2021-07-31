@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+}
+
+
+/**** imagem e texto do body ****/
+
+body{
+    margin: 0px;
+    background-image: url("img/fundo-login.jpeg");
+    background-position: 100%;
+    color: white;
+    font-family: Arial;
+
+}
+
+
+/**** campos dos inputs  ****/
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16pt;
+    padding: 10px 20px;
+    padding-left: 5px;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: white;
+    outline: none;
+}
+
+input[type=submit]{
+    display: block;
+    margin: auto;
+    width: 300px;
+    background-color: #41e70fe8;
+    border: none;
+    cursor: pointer;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #fff;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #fff;  
+ }
+
+
+ /**** Corpo do formulario de login ****/
+
+ .corpo-form{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgba(25, 97, 165, 0.3);
+    width: 450px;
+    margin: 150px auto 0px auto;
+}
+
+.corpo-form h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.corpo-form a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.corpo-form a:hover{
+    text-decoration: underline;
+}
+
+.corpo-form-cad{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgba(25, 97, 165, 0.3);
+    width: 450px;
+    margin: 70px auto 0px auto;
+}
+
+.corpo-form-cad h2{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.corpo-form-cad a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.corpo-form-cad a:hover{
+    text-decoration: underline;
+}
